@@ -1,7 +1,13 @@
 function FindProxyForURL(url, host) {
     var list = [
         "rutracker.org",
-        "spotify.com"
+        "spotify.com",
+        "telegram.org",
+        "telegra.ph",
+        "t.me",
+        "linkedin.com",
+        "licdn.com",
+        "flibusta.is"
     ];
 
     for(var i = 0; i < list.length; i++) {
@@ -10,5 +16,5 @@ function FindProxyForURL(url, host) {
             return "PROXY squid.amartynov.ru:3128";
     }
 
-    return null;
+    return "DIRECT";
 }
