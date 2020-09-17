@@ -1,10 +1,6 @@
 function FindProxyForURL(url, host) {
     var list = [
         "rutracker.org",
-        "spotify.com",
-        "telegram.org",
-        "telegra.ph",
-        "t.me",
         "linkedin.com",
         "licdn.com",
         "flibusta.is"
